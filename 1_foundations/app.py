@@ -9,6 +9,13 @@ import gradio as gr
 
 load_dotenv(override=True)
 
+openai_api_key = os.getenv('OPENAI_API_KEY')
+
+if openai_api_key:
+    print(f"OpenAI API Key exists and begins {openai_api_key[:8]}")
+else:
+    print("OpenAI API Key not set - please head to the troubleshooting guide in the setup folder")
+
 def push(text):
     requests.post(
         "https://api.pushover.net/1/messages.json",
@@ -76,8 +83,8 @@ tools = [{"type": "function", "function": record_user_details_json},
 class Me:
 
     def __init__(self):
-        self.openai = OpenAI()
-        self.name = "Ed Donner"
+        self.openai = OpenAI(api_key=openai_api_key)
+        self.name = "Phani Dingari"
         reader = PdfReader("me/linkedin.pdf")
         self.linkedin = ""
         for page in reader.pages:
@@ -130,5 +137,5 @@ If the user is engaging in discussion, try to steer them towards getting in touc
 
 if __name__ == "__main__":
     me = Me()
-    gr.ChatInterface(me.chat, type="messages").launch()
+    gr.ChatInterface(me.chat, title="PhaniCareerProfile",type="messages").launch()
     

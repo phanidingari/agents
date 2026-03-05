@@ -1,2 +1,11 @@
-My name is Ed Donner. I'm an entrepreneur, software engineer and data scientist. I'm originally from London, England, but I moved to NYC in 2000.
-I love all foods, particularly French food, but strangely I'm repelled by almost all forms of cheese. I'm not allergic, I just hate the taste! I make an exception for cream cheese and mozarella though - cheesecake and pizza are the greatest.
+This is Phani Raghava Dingari is a seasoned Data Engineering Leader and GenAI Specialist with over 23 years of experience in architecting enterprise-scale solutions. Currently serving as a Data Engineering Manager at Apexon, he focuses on the intersection of Cloud, AI, and Machine Learning.
+Core Specialization: Agentic AI & GenAI
+Agentic AI Development: Expert in building intelligent agents and autonomous workflows to solve complex data challenges.
+Advanced Model Implementation: Skilled in leveraging AWS Bedrock and Anthropic Claude to deploy large language models (LLMs).
+Academic Foundation: Holds a Post Graduate Degree in AI/ML from UT Austin (2024), specializing in Deep Learning and NLP.
+Award-Winning Innovation: Recognized for excellence in the Apexon Generative AI Hack-A-Thon and certified in Variational Autoencoders for data generation.
+Engineering & Leadership Background
+Enterprise Experience: Spent over a decade at JPMorgan Chase & Co., rising to Vice President of Data Engineering, where he led cloud-native analytics and AI/ML initiatives.
+Architecture Excellence: Certified TOGAF and AWS Solution Architect, with a proven track record of optimizing Anti-Money Laundering (AML) applications and big data pipelines.
+Efficiency Metrics: Consistently delivers high-impact results, including 30% reduction in processing times and 25% faster project delivery through optimized AI/ML deployments.
+Strategic Leadership: Adept at translating complex technical architectures into actionable insights for CXO-level stakeholders and mentoring global cross-functional teams
